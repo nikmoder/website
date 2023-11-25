@@ -1,0 +1,384 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/******************************************* B O D Y ***********************************************/
+
+body {
+    margin: 0px;
+    background-color: black;
+}
+
+/******************************************* H E A D E R ***********************************************/
+
+header {
+    width: 100%;
+    height: 120px;
+    background-color: rgb(15, 15, 15);
+}
+
+/******************************************* L O G O ***********************************************/
+
+.logo img {
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 35px;
+    transition: transform, 200ms ease;
+}
+
+.logo img:hover {
+    scale: 1.05;
+}
+
+/******************************************* N A V I G A T I O N ***********************************************/
+
+ul {
+    position: absolute;
+    margin-left: 1500px;
+    margin-top: 50px;
+  }
+
+  li {
+    display: inline;
+    margin-left: -4px;
+  }
+
+  li a {
+    font-family: 'Poppins', sans-serif;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: rgb(180, 180, 180);
+    text-decoration: none;
+    transition: color, 300ms ease-in;
+    padding-top: 50px;
+    padding-bottom: 52px;
+    font-size: 15px;
+  }
+
+  li a:hover {
+    color: white;
+    transition: color, 200ms ease;
+  }
+
+  li a.active {
+    color: rgb(105, 105, 105);
+    pointer-events: none;
+  }
+
+/******************************************* I N S T A G R A M  L O G O ***********************************************/
+
+  .instagram img {
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 2300px;
+    opacity: 60%;
+    transition: opacity, 300ms ease-in;
+  }
+
+  .linkedin img {
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 2350px;
+    opacity: 60%;
+    transition: opacity, 300ms ease-in;
+  }
+
+  .instagram :hover {
+    opacity: 100%;
+  }
+
+  .linkedin :hover {
+    opacity: 100%;
+  }
+
+/******************************************* F A C E B O O K  L O G O ***********************************************/
+
+  .heroimg img {
+    width: 100%;
+    height: 1160px;
+    object-fit: cover;
+    pointer-events: none;
+  }
+
+  .heroimg p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    margin-top: -300px;
+    font-size: 18px;
+    margin-left: 150px;
+  }
+
+/******************************************* E X P E R I E N C E***********************************************/
+
+  .experience {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(15, 15, 15);
+    position: absolute;
+  }
+
+  .experience p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    position: absolute;
+    margin-left: 905px;
+    margin-top: 35px;
+  }
+
+/******************************************* A U T O M O T I V E ***********************************************/
+
+  .automotive {
+    width: 100%;
+    height: 1300px;
+  }
+
+  .automotive img {
+    height: 1300px;
+    width: 1250px;
+    object-fit: cover;
+  }
+
+  .automotive h1 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    margin-top: -750px;
+    margin-left: 1600px;
+    font-size: 40px;
+  }
+
+  .automotive p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    margin-top: -650px;
+    margin-left: 1600px;
+    font-size: 30px;
+  }
+
+/******************************************* C O M M E R C I A L ***********************************************/
+
+  .commercial {
+    width: 100%;
+    height: 1300px;
+  }
+
+  .commercial img {
+    height: 1300px;
+    width: 1250px;
+    object-fit: cover;
+    margin-left: 1290px;
+  }
+
+  .commercial h1 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    margin-top: -750px;
+    margin-left: 200px;
+    font-size: 40px;
+  }
+
+  .commercial p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    margin-top: -650px;
+    margin-left: 200px;
+    font-size: 30px;
+  }
+
+/******************************************* P O R T R A I T S ***********************************************/
+
+  .portraits {
+    width: 100%;
+    height: 1300px;
+  }
+
+  .portraits img {
+    height: 1300px;
+    width: 1250px;
+    object-fit: cover;
+  }
+
+  .portraits h1 {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    margin-top: -750px;
+    margin-left: 1600px;
+    font-size: 40px;
+  }
+
+  .portraits p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    margin-top: -650px;
+    margin-left: 1600px;
+    font-size: 30px;
+  }
+
+/******************************************* C L I E N T S ***********************************************/
+
+  .clients {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(15, 15, 15);
+    position: absolute;
+  }
+
+  .clients p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    position: absolute;
+    margin-left: 1145px;
+    margin-top: 35px;
+  }
+
+/******************************************* C L I E N T  L I S T ***********************************************/
+
+  .clientlist {
+    width: 100%;
+    height: 400px;
+  }
+
+  .clientlist .tzs img{
+    position: absolute;
+    height: 100px;
+  }
+  
+
+  .domzale img {
+    height: 200px;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 1000px;
+  }
+
+  .gogi img {
+    height: 200px;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 1350px;
+  }
+
+  .tzs img {
+    height: 200px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 1800px;
+  }
+
+  .sportida img {
+    height: 100px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 300px;
+  }
+
+/******************************************* C O N T A C T ***********************************************/
+
+  .contact {
+    width: 100%;
+    height: 100px;
+    background-color: rgb(15, 15, 15);
+    position: absolute;
+  }
+
+  .contact p {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    position: absolute;
+    margin-left: 1185px;
+    margin-top: 35px;
+  }
+
+/******************************************* C O N T A C T  F O R M ***********************************************/
+
+.container {
+  margin-top: 140px;
+  width: 1200px;
+  margin-left: 680px;
+  font-family: 'Poppins', sans-serif;
+  padding-bottom: 40px;
+}
+
+label {
+  color: white;
+}
+
+::placeholder {
+  color: rgb(160, 160, 160);
+}
+
+  /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 1200px; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid white;
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  font-family: 'Poppins', sans-serif;
+  background-color: rgb(10, 10, 10);
+  color: white;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #272727;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: color, 200ms ease-in;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #ffffff;
+  color: black;
+}
+
+/******************************************* F O O T E R ***********************************************/
+
+footer p{
+margin-top: 50px;
+color: white;
+font-family: 'Poppins', sans-serif;
+text-align: center;
+}
+
+footer a {
+  color: rgb(179, 179, 255);
+  transition: color, 200ms ease;
+}
+
+footer a:hover {
+  color: white;
+}
+
+/******************************************* P R I V A C Y ***********************************************/
+
+.privacypolicy h1 {
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  margin-top: 100px;
+}
+
+.privacypolicy p {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  font-size: 18px;
+  margin-top: 100px;
+  text-align: center;
+}
