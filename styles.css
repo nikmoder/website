@@ -122,8 +122,7 @@ ul {
     color: white;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
-    position: absolute;
-    margin-left: 905px;
+    text-align: center;
     margin-top: 35px;
   }
 
@@ -234,8 +233,7 @@ ul {
     color: white;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
-    position: absolute;
-    margin-left: 1145px;
+    text-align: center;
     margin-top: 35px;
   }
 
@@ -293,8 +291,7 @@ ul {
     color: white;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
-    position: absolute;
-    margin-left: 1185px;
+    text-align: center;
     margin-top: 35px;
   }
 
@@ -383,6 +380,8 @@ footer a:hover {
   text-align: center;
 }
 
+/******************************************* I N  D E V ***********************************************/
+
 .indev img {
   height: 50px;
   display: block;
@@ -397,4 +396,283 @@ footer a:hover {
   font-family: 'Poppins', sans-serif;
   text-align: center;
   margin-top: 100px;
+}
+
+/******************************************* R E S P O N S I V E  D E S I G N ***********************************************/
+
+
+/* PHONE */
+
+@media (max-width: 640px) {
+  header {
+    background-color: antiquewhite;
+  }
+}
+
+/************************ I N S T A G R A M ************************/
+
+@media (max-width: 2475px) {
+  .instagram img {
+    margin-left: 2250px;
+  }
+}
+@media (max-width: 2400px) {
+  .instagram img {
+    margin-left: 2200px;
+  }
+}
+@media (max-width: 2330px) {
+  .instagram img {
+    margin-left: 2150px;
+  }
+}
+@media (max-width: 2285px) {
+  .instagram img {
+    margin-left: 2100px;
+  }
+}
+@media (max-width: 2240px) {
+  .instagram img {
+    margin-left: 2050px;
+  }
+}
+@media (max-width: 2195px) {
+  .instagram img {
+    margin-left: 2000px;
+  }
+}
+@media (max-width: 2130px) {
+  .instagram img {
+    margin-left: 1950px;
+  }
+}
+@media (max-width: 2075px) {
+  .instagram img {
+    margin-left: 1900px;
+  }
+}
+@media (max-width: 2010px) {
+  .instagram img {
+    margin-left: 1850px;
+  }
+}
+@media (max-width: 1970px) {
+  .instagram img {
+    margin-left: 1800px;
+  }
+}
+@media (max-width: 1925px) {
+  .instagram img {
+    margin-left: 1750px;
+  }
+}
+@media (max-width: 1880px) {
+  .instagram img {
+    margin-left: 1700px;
+  }
+}
+@media (max-width: 1825px) {
+  .instagram img {
+    margin-left: 1650px;
+  }
+}
+@media (max-width: 1770px) {
+  .instagram img {
+    margin-left: 1600px;
+  }
+}
+@media (max-width: 1720px) {
+  .instagram img {
+    margin-left: 1550px;
+  }
+}
+@media (max-width: 1670px) {
+  .instagram img {
+    margin-left: 1500px;
+  }
+}
+@media (max-width: 1615px) {
+  .instagram img {
+    margin-left: 1450px;
+  }
+}
+@media (max-width: 1565px) {
+  .instagram img {
+    margin-left: 1400px;
+  }
+}
+@media (max-width: 1510px) {
+  .instagram img {
+    margin-left: 1350px;
+  }
+}
+@media (max-width: 1465px) {
+  .instagram img {
+    margin-left: 1300px;
+  }
+}
+@media (max-width: 1410px) {
+  .instagram img {
+    margin-left: 1250px;
+  }
+}
+@media (max-width: 1365px) {
+  .instagram img {
+    margin-left: 1200px;
+  }
+}
+@media (max-width: 1310px) {
+  .instagram img {
+    margin-left: 1150px;
+  }
+}
+@media (max-width: 1265px) {
+  .instagram img {
+    margin-left: 1100px;
+  }
+}
+@media (max-width: 1220px) {
+  .instagram img {
+    margin-left: 1050px;
+  }
+}
+@media (max-width: 1160px) {
+  .instagram img {
+    visibility: hidden;
+  }
+}
+
+
+/************************ L I N K E D I N ************************/
+
+
+@media (max-width: 2475px) {
+  .linkedin img {
+    margin-left: 2300px;
+  }
+}
+@media (max-width: 2400px) {
+  .linkedin img {
+    margin-left: 2250px;
+  }
+}
+@media (max-width: 2330px) {
+  .linkedin img {
+    margin-left: 2200px;
+  }
+}
+@media (max-width: 2285px) {
+  .linkedin img {
+    margin-left: 2150px;
+  }
+}
+@media (max-width: 2240px) {
+  .linkedin img {
+    margin-left: 2100px;
+  }
+}
+@media (max-width: 2195px) {
+  .linkedin img {
+    margin-left: 2050px;
+  }
+}
+@media (max-width: 2130px) {
+  .linkedin img {
+    margin-left: 2000px;
+  }
+}
+@media (max-width: 2075px) {
+  .linkedin img {
+    margin-left: 1950px;
+  }
+}
+@media (max-width: 2010px) {
+  .linkedin img {
+    margin-left: 1900px;
+  }
+}
+@media (max-width: 1970px) {
+  .linkedin img {
+    margin-left: 1850px;
+  }
+}
+@media (max-width: 1925px) {
+  .linkedin img {
+    margin-left: 1800px;
+  }
+}
+@media (max-width: 1880px) {
+  .linkedin img {
+    margin-left: 1750px;
+  }
+}
+@media (max-width: 1825px) {
+  .linkedin img {
+    margin-left: 1700px;
+  }
+}
+@media (max-width: 1770px) {
+  .linkedin img {
+    margin-left: 1650px;
+  }
+}
+@media (max-width: 1720px) {
+  .linkedin img {
+    margin-left: 1600px;
+  }
+}
+@media (max-width: 1670px) {
+  .linkedin img {
+    margin-left: 1550px;
+  }
+}
+@media (max-width: 1615px) {
+  .linkedin img {
+    margin-left: 1500px;
+  }
+}
+@media (max-width: 1565px) {
+  .linkedin img {
+    margin-left: 1450px;
+  }
+}
+@media (max-width: 1510px) {
+  .linkedin img {
+    margin-left: 1400px;
+  }
+}
+@media (max-width: 1465px) {
+  .linkedin img {
+    margin-left: 1350px;
+  }
+}
+@media (max-width: 1410px) {
+  .linkedin img {
+    margin-left: 1300px;
+  }
+}
+@media (max-width: 1365px) {
+  .linkedin img {
+    margin-left: 1250px;
+  }
+}
+@media (max-width: 1310px) {
+  .linkedin img {
+    margin-left: 1200px;
+  }
+}
+@media (max-width: 1265px) {
+  .linkedin img {
+    margin-left: 1150px;
+  }
+}
+@media (max-width: 1220px) {
+  .linkedin img {
+    margin-left: 1100px;
+  }
+}
+@media (max-width: 1160px) {
+  .linkedin img {
+    visibility: hidden;
+  }
 }
