@@ -407,7 +407,7 @@ footer a:hover {
 @media (max-width: 640px) {
   header {
     height: 80px;
-    background-color: rgb(9, 255, 0);
+    background-color: rgb(255, 0, 242);
   }
 
   .logo img {
