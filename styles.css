@@ -405,7 +405,10 @@ footer a:hover {
 
 @media (max-width: 640px) {
   header {
-    background-color: antiquewhite;
+    background-color: rgb(255, 145, 0);
+  }
+  body {
+    overflow-x: hidden;
   }
 }
 
