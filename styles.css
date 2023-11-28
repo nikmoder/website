@@ -407,7 +407,7 @@ footer a:hover {
 @media (max-width: 640px) {
   header {
     height: 80px;
-    background-color: rgb(255, 0, 242);
+    background-color: rgb(255, 0, 0);
   }
 
   .logo img {
@@ -455,7 +455,7 @@ footer a:hover {
 
   .automotive h1 {
     margin-top: 30px;
-    margin-left: 48px;
+    margin-left: 40px;
     font-size: 25px;
     text-align: center;
   }
@@ -463,6 +463,64 @@ footer a:hover {
   .automotive p {
     margin-top: 80px;
     margin-left: 20px;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .commercial {
+    width: 100%;
+    height: 720px;
+    background-color: blueviolet;
+  }
+
+  .commercial img {
+    height: 550px;
+    width: 100%;
+    object-fit: cover;
+    margin-left: 0px;
+  }
+
+  .commercial h1 {
+    margin-top: 30px;
+    margin-left: 40px;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .commercial p {
+    margin-top: 80px;
+    margin-left: 6px;
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .commercial p span {
+    display: inline-block;
+  }
+
+  .portraits {
+    width: 100%;
+    height: 720px;
+    background-color: blueviolet;
+  }
+
+  .portraits img {
+    height: 550px;
+    width: 100%;
+    object-fit: cover;
+    margin-left: 0px;
+  }
+
+  .portraits h1 {
+    margin-top: 30px;
+    margin-left: 70px;
+    font-size: 25px;
+    text-align: center;
+  }
+
+  .portraits p {
+    margin-top: 80px;
+    margin-left: 10px;
     font-size: 15px;
     text-align: center;
   }
