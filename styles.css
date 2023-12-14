@@ -384,11 +384,10 @@ footer a:hover {
 /******************************************* I N  D E V ***********************************************/
 
 .indev img {
-  height: 50px;
+  height: 120px;
   display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
   margin-top: 200px;
 }
 
