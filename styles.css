@@ -250,8 +250,14 @@ footer a:hover {
 /**** RESPONSIVE ***/
 
 @media (max-width: 460px){
+
+body {
+    margin-left: -8px;
+}
+
 main {
     width: 450px;
+    margin-left: -10px;
 }
 
 header .logo img {
@@ -263,15 +269,26 @@ nav {
 }
 
 .herotxt h1 {
-    font-size: 30px;
+    font-size: 25px;
     margin-top: 20px;
 }
 
 .heroimg img {
-    width: 450px;
-    height: 500px;
+    width: 330px;
+    height: 400px;
     object-fit: cover;
     margin-top: 20px;
     pointer-events: none;
 }
+
+.kajpocnemo h1 {
+    color: white;
+    font-family: 'Sen', sans-serif;
+    text-align: right;
+    font-size: 20px;
+    margin-top: 40px;
+    pointer-events: none;
+    margin-right: 120px;
+}
+
 }
