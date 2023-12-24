@@ -1,829 +1,256 @@
-html {
-  scroll-behavior: smooth;
-}
+@charset "UTF-8";
 
-/******************************************* B O D Y ***********************************************/
+html {
+    scroll-behavior: smooth;
+}
 
 body {
-    margin: 0px;
-    background-color: black;
+    background-color: rgb(15, 15, 15);
+    margin-top: -3px;
 }
 
-/******************************************* H E A D E R ***********************************************/
+main {
+    height: 4800px;
+    width: 1420px;
+    padding-left: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
 
 header {
     width: 100%;
-    height: 120px;
-    background-color: rgb(15, 15, 15);
+    height: 100px;
 }
 
-/******************************************* L O G O ***********************************************/
-
-.logo img {
+header .logo img {
+    height: 35px;
     position: absolute;
-    margin-left: 100px;
-    margin-top: 35px;
-    transition: transform, 200ms ease;
-    height: 40px;
+    transition: scale, 200ms ease;
 }
 
-.logo img:hover {
-    scale: 1.05;
+header .logo img:hover {
+    scale: 1.1;
 }
 
-/******************************************* N A V I G A T I O N ***********************************************/
+nav ul {
+    text-align: right;
+}
 
-ul {
-    position: absolute;
-    margin-left: 1500px;
-    margin-top: 50px;
-  }
-
-  li {
+nav li {
     display: inline;
     margin-left: -4px;
-  }
+}
 
-  li a {
-    font-family: 'Poppins', sans-serif;
+nav li a {
+    font-family: 'Sen', sans-serif;
     padding-left: 30px;
     padding-right: 30px;
-    color: rgb(180, 180, 180);
+    color: rgb(255, 255, 255);
     text-decoration: none;
     transition: color, 300ms ease-in;
-    padding-top: 50px;
-    padding-bottom: 52px;
-    font-size: 15px;
-  }
+    padding-top: 2px;
+    padding-bottom: 10px;
+    font-size: 30px;
+    font-weight: 700;
+}
 
-  li a:hover {
-    color: white;
+nav li a:hover {
+    color: rgb(216, 216, 216);
     transition: color, 200ms ease;
-  }
+    text-decoration: underline;
+    text-underline-offset: 5px;
+}
 
-  li a.active {
+nav li a.active {
     color: rgb(105, 105, 105);
     pointer-events: none;
-  }
+}
 
-/******************************************* I N S T A G R A M  L O G O ***********************************************/
-
-  .instagram img {
-    position: absolute;
-    margin-top: 45px;
-    margin-left: 2300px;
-    opacity: 60%;
-    transition: opacity, 300ms ease-in;
-  }
-
-  .linkedin img {
-    position: absolute;
-    margin-top: 45px;
-    margin-left: 2350px;
-    opacity: 60%;
-    transition: opacity, 300ms ease-in;
-  }
-
-  .instagram :hover {
-    opacity: 100%;
-  }
-
-  .linkedin :hover {
-    opacity: 100%;
-  }
-
-/******************************************* H E R O  I M G ***********************************************/
-
-  .heroimg img {
-    width: 100%;
-    height: 1160px;
-    object-fit: cover;
+.herotxt h1 {
+    color: white;
+    font-family: 'Sen', sans-serif;
+    text-align: left;
+    font-size: 70px;
+    margin-top: 80px;
     pointer-events: none;
-  }
+}
 
-  .heroimg p {
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    position: absolute;
-    margin-top: -300px;
-    font-size: 18px;
-    margin-left: 150px;
-  }
-
-/******************************************* E X P E R I E N C E***********************************************/
-
-  .experience {
-    width: 100%;
-    height: 100px;
-    background-color: rgb(15, 15, 15);
-    position: absolute;
-  }
-
-  .experience p {
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    text-align: center;
-    margin-top: 35px;
-  }
-
-/******************************************* A U T O M O T I V E ***********************************************/
-
-  .automotive {
-    width: 100%;
-    height: 1300px;
-  }
-
-  .automotive img {
-    height: 1300px;
-    width: 1250px;
+.heroimg img {
+    width: 1380px;
+    height: 800px;
     object-fit: cover;
-  }
+    margin-top: 20px;
+    pointer-events: none;
+}
 
-  .automotive h1 {
+.kajpocnemo h1 {
     color: white;
-    font-family: 'Poppins', sans-serif;
-    position: absolute;
-    margin-top: -750px;
-    margin-left: 1600px;
-    font-size: 40px;
-  }
+    font-family: 'Sen', sans-serif;
+    text-align: right;
+    font-size: 70px;
+    margin-top: 80px;
+    pointer-events: none;
+    margin-right: 50px;
+}
 
-  .automotive p {
+.kajpocnemo p {
     color: white;
-    font-family: 'Poppins', sans-serif;
-    position: absolute;
-    margin-top: -650px;
-    margin-left: 1600px;
+    font-family: 'Sen', sans-serif;
+    text-align: right;
     font-size: 30px;
-  }
+    margin-top: 100px;
+    margin-right: 50px;
+}
 
-/******************************************* C O M M E R C I A L ***********************************************/
-
-  .commercial {
-    width: 100%;
-    height: 1300px;
-  }
-
-  .commercial img {
-    height: 1300px;
-    width: 1250px;
-    object-fit: cover;
-    margin-left: 1290px;
-  }
-
-  .commercial h1 {
+.kajpocnemo ul {
     color: white;
-    font-family: 'Poppins', sans-serif;
-    position: absolute;
-    margin-top: -750px;
-    margin-left: 200px;
-    font-size: 40px;
-  }
-
-  .commercial p {
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    position: absolute;
-    margin-top: -650px;
-    margin-left: 200px;
+    font-family: 'Sen', sans-serif;
+    text-align: left;
     font-size: 30px;
-  }
-
-/******************************************* P O R T R A I T S ***********************************************/
-
-  .portraits {
-    width: 100%;
-    height: 1300px;
-  }
-
-  .portraits img {
-    height: 1300px;
-    width: 1250px;
-    object-fit: cover;
-  }
-
-  .portraits h1 {
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    position: absolute;
-    margin-top: -750px;
-    margin-left: 1600px;
-    font-size: 40px;
-  }
-
-  .portraits p {
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    position: absolute;
-    margin-top: -650px;
-    margin-left: 1600px;
-    font-size: 30px;
-  }
-
-/******************************************* C L I E N T S ***********************************************/
-
-  .clients {
-    width: 100%;
-    height: 100px;
-    background-color: rgb(15, 15, 15);
-    position: absolute;
-  }
-
-  .clients p {
-    color: white;
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
-    text-align: center;
-    margin-top: 35px;
-  }
-
-/******************************************* C L I E N T  L I S T ***********************************************/
-
-  .clientlist {
-    width: 100%;
-    height: 400px;
-  }
-
-  .clientlist .tzs img{
-    position: absolute;
-    height: 100px;
-  }
-  
-
-  .domzale img {
-    height: 200px;
-    position: absolute;
     margin-top: 150px;
-    margin-left: 1000px;
-  }
+}
 
-  .gogi img {
-    height: 200px;
-    position: absolute;
-    margin-top: 150px;
-    margin-left: 1350px;
-  }
+.reference {
+    width: 1420px;
+    height: 2250px;
+    margin-top: 100px;
 
-  .tzs img {
-    height: 200px;
-    position: absolute;
-    margin-top: 200px;
-    margin-left: 1800px;
-  }
+}
 
-  .sportida img {
-    height: 100px;
-    position: absolute;
-    margin-top: 200px;
-    margin-left: 300px;
-  }
-
-/******************************************* C O N T A C T ***********************************************/
-
-  .contact {
-    width: 100%;
-    height: 100px;
-    background-color: rgb(15, 15, 15);
-    position: absolute;
-  }
-
-  .contact p {
+.reference h1 {
     color: white;
-    font-family: 'Poppins', sans-serif;
-    font-size: 18px;
+    font-family: 'Sen', sans-serif;
+    text-align: left;
+    font-size: 70px;
+    margin-top: 80px;
+    pointer-events: none;
+    padding-top: 50px;
+}
+
+.first img {
+    width: 700px;
+    margin-top: 50px;
+}
+
+.second img {
+    width: 650px;
+    object-fit: cover;
+    height: 500px;
+    float: right;
+    margin-right: 50px;
+    margin-top: -400px;
+}
+
+.third img {
+    width: 700px;
+    margin-top: 20px;
+    height: 500px;
+    object-fit: cover;
+}
+
+.fourth img {
+    width: 650px;
+    margin-top: -400px;
+    height: 800px;
+    float: right;
+    object-fit: cover;
+    margin-right: 50px;
+}
+
+.fifth img {
+    width: 700px;
+    margin-top: 20px;
+    height: 800px;
+    object-fit: cover;
+}
+
+.sixth img {
+    width: 650px;
+    object-fit: cover;
+    height: 500px;
+    float: right;
+    margin-right: 50px;
+    margin-top: -400px;
+}
+
+.kontakt h1 {
+    color: white;
+    font-family: 'Sen', sans-serif;
+    text-align: left;
+    font-size: 70px;
+    margin-top: 80px;
+    pointer-events: none;
+    padding-top: 50px;
+}
+
+footer {
+    width: 100%;
+    height: 550px;
+    background-color: white;
+}
+
+footer p {
+    color: black;
+    font-family: 'Sen', sans-serif;
+    padding-top: 200px;
+    font-weight: 700;
+    position: absolute;
+    margin-left: 50px;
+}
+
+footer h1 {
+    color: black;
+    font-family: 'Sen', sans-serif;
     text-align: center;
-    margin-top: 35px;
-  }
-
-/******************************************* C O N T A C T  F O R M ***********************************************/
-
-.container {
-  margin-top: 140px;
-  width: 1200px;
-  margin-left: 680px;
-  font-family: 'Poppins', sans-serif;
-  padding-bottom: 40px;
-}
-
-label {
-  color: white;
-}
-
-::placeholder {
-  color: rgb(160, 160, 160);
-}
-
-  /* Style inputs with type="text", select elements and textareas */
-input[type=text], select, textarea {
-  width: 1200px; /* Full width */
-  padding: 12px; /* Some padding */ 
-  border: 1px solid white;
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
-  font-family: 'Poppins', sans-serif;
-  background-color: rgb(10, 10, 10);
-  color: white;
-}
-
-/* Style the submit button with a specific background color etc */
-input[type=submit] {
-  background-color: #272727;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  transition: color, 200ms ease-in;
-}
-
-/* When moving the mouse over the submit button, add a darker green color */
-input[type=submit]:hover {
-  background-color: #ffffff;
-  color: black;
-}
-
-/******************************************* F O O T E R ***********************************************/
-
-footer p{
-margin-top: 50px;
-color: white;
-font-family: 'Poppins', sans-serif;
-text-align: center;
+    font-size: 50px;
+    padding-top: 80px;
 }
 
 footer a {
-  color: rgb(179, 179, 255);
-  transition: color, 200ms ease;
+    font-family: 'Sen', sans-serif;
+    color: black;
+    text-decoration: underline;
+    transition: color, 300ms ease-in;
+    font-size: 50px;
+    text-underline-offset: 6px;
 }
 
 footer a:hover {
-  color: white;
+    color: rgb(87, 87, 87);
+    transition: color, 200ms ease;
+    text-decoration: none;
 }
 
-/******************************************* P R I V A C Y ***********************************************/
-
-.privacypolicy h1 {
-  color: white;
-  font-family: 'Poppins', sans-serif;
-  text-align: center;
-  margin-top: 100px;
+#pravila {
+    color: black;
+    font-family: 'Sen', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 215px;
+    margin-left: 300px;
+    position: absolute;
 }
-
-.privacypolicy p {
-  font-family: 'Poppins', sans-serif;
-  color: white;
-  font-size: 18px;
-  margin-top: 100px;
-  text-align: center;
-}
-
-/******************************************* I N  D E V ***********************************************/
 
 .indev img {
-  height: 120px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 200px;
-}
-
-.indev p {
-  color: white;
-  font-family: 'Poppins', sans-serif;
-  text-align: center;
-  margin-top: 100px;
-}
-
-/******************************************* R E S P O N S I V E  D E S I G N ***********************************************/
-
-
-/* PHONE */
-
-@media (max-width: 640px) {
-  header {
-    height: 80px;
-    background-color: rgb(51, 255, 0);
+    height: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
   }
-
-  .logo img {
-    height: 30px;
-    margin-top: 23px;
-    margin-left: 50px;
-  }
-
-  .heroimg img {
-    height: 655px;
-    width: 100%;
-  }
-
-  .heroimg p {
-    font-size: 15px;
-    margin-top: -130px;
-    margin-left: 40px;
-  }
-
-  body {
-    overflow-x: hidden;
-    width: 100%;
-  }
-
-  .experience {
-    height: 60px;
-    width: 100%;
-  }
-
-  .experience p {
-    font-size: 10px;
-    margin-top: 22px;
-  }
-
-  .automotive {
-    height: 720px;
-    width: 100%;
-  }
-
-  .automotive img {
-    height: 550px;
-    width: 100%;
-  }
-
-  .automotive h1 {
-    margin-top: 30px;
-    margin-left: 40px;
-    font-size: 25px;
-    text-align: center;
+  
+  .indev p {
+    color: white;
     font-family: 'Poppins', sans-serif;
-  }
-
-  .automotive p {
-    margin-top: 80px;
-    margin-left: 20px;
-    font-size: 15px;
     text-align: center;
+    margin-top: 100px;
   }
 
-  .commercial {
-    width: 100%;
-    height: 720px;
-  }
+/**** RESPONSIVE ***/
 
-  .commercial img {
-    height: 550px;
-    width: 100%;
-    object-fit: cover;
-    margin-left: 0px;
-  }
-
-  .commercial h1 {
-    margin-top: 30px;
-    margin-left: 40px;
-    font-size: 25px;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-  }
-
-  .commercial p {
-    margin-top: 80px;
-    margin-left: 6px;
-    font-size: 15px;
-    text-align: center;
-  }
-
-  .commercial p span {
-    display: inline-block;
-  }
-
-  .portraits {
-    width: 100%;
-    height: 720px;
-  }
-
-  .portraits img {
-    height: 550px;
-    width: 100%;
-    object-fit: cover;
-    margin-left: 0px;
-  }
-
-  .portraits h1 {
-    margin-top: 30px;
-    margin-left: 70px;
-    font-size: 25px;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-  }
-
-  .portraits p {
-    margin-top: 80px;
-    margin-left: 10px;
-    font-size: 15px;
-    text-align: center;
-  }
+@media (max-width: 460px){
+main {
+    background-color: aqua;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/************************ I N S T A G R A M ************************/
-
-@media (max-width: 2475px) {
-  .instagram img {
-    margin-left: 2250px;
-  }
-}
-@media (max-width: 2400px) {
-  .instagram img {
-    margin-left: 2200px;
-  }
-}
-@media (max-width: 2330px) {
-  .instagram img {
-    margin-left: 2150px;
-  }
-}
-@media (max-width: 2285px) {
-  .instagram img {
-    margin-left: 2100px;
-  }
-}
-@media (max-width: 2240px) {
-  .instagram img {
-    margin-left: 2050px;
-  }
-}
-@media (max-width: 2195px) {
-  .instagram img {
-    margin-left: 2000px;
-  }
-}
-@media (max-width: 2130px) {
-  .instagram img {
-    margin-left: 1950px;
-  }
-}
-@media (max-width: 2075px) {
-  .instagram img {
-    margin-left: 1900px;
-  }
-}
-@media (max-width: 2010px) {
-  .instagram img {
-    margin-left: 1850px;
-  }
-}
-@media (max-width: 1970px) {
-  .instagram img {
-    margin-left: 1800px;
-  }
-}
-@media (max-width: 1925px) {
-  .instagram img {
-    margin-left: 1750px;
-  }
-}
-@media (max-width: 1880px) {
-  .instagram img {
-    margin-left: 1700px;
-  }
-}
-@media (max-width: 1825px) {
-  .instagram img {
-    margin-left: 1650px;
-  }
-}
-@media (max-width: 1770px) {
-  .instagram img {
-    margin-left: 1600px;
-  }
-}
-@media (max-width: 1720px) {
-  .instagram img {
-    margin-left: 1550px;
-  }
-}
-@media (max-width: 1670px) {
-  .instagram img {
-    margin-left: 1500px;
-  }
-}
-@media (max-width: 1615px) {
-  .instagram img {
-    margin-left: 1450px;
-  }
-}
-@media (max-width: 1565px) {
-  .instagram img {
-    margin-left: 1400px;
-  }
-}
-@media (max-width: 1510px) {
-  .instagram img {
-    margin-left: 1350px;
-  }
-}
-@media (max-width: 1465px) {
-  .instagram img {
-    margin-left: 1300px;
-  }
-}
-@media (max-width: 1410px) {
-  .instagram img {
-    margin-left: 1250px;
-  }
-}
-@media (max-width: 1365px) {
-  .instagram img {
-    margin-left: 1200px;
-  }
-}
-@media (max-width: 1310px) {
-  .instagram img {
-    margin-left: 1150px;
-  }
-}
-@media (max-width: 1265px) {
-  .instagram img {
-    margin-left: 1100px;
-  }
-}
-@media (max-width: 1220px) {
-  .instagram img {
-    margin-left: 1050px;
-  }
-}
-@media (max-width: 1160px) {
-  .instagram img {
-    visibility: hidden;
-  }
-}
-
-
-/************************ L I N K E D I N ************************/
-
-
-@media (max-width: 2475px) {
-  .linkedin img {
-    margin-left: 2300px;
-  }
-}
-@media (max-width: 2400px) {
-  .linkedin img {
-    margin-left: 2250px;
-  }
-}
-@media (max-width: 2330px) {
-  .linkedin img {
-    margin-left: 2200px;
-  }
-}
-@media (max-width: 2285px) {
-  .linkedin img {
-    margin-left: 2150px;
-  }
-}
-@media (max-width: 2240px) {
-  .linkedin img {
-    margin-left: 2100px;
-  }
-}
-@media (max-width: 2195px) {
-  .linkedin img {
-    margin-left: 2050px;
-  }
-}
-@media (max-width: 2130px) {
-  .linkedin img {
-    margin-left: 2000px;
-  }
-}
-@media (max-width: 2075px) {
-  .linkedin img {
-    margin-left: 1950px;
-  }
-}
-@media (max-width: 2010px) {
-  .linkedin img {
-    margin-left: 1900px;
-  }
-}
-@media (max-width: 1970px) {
-  .linkedin img {
-    margin-left: 1850px;
-  }
-}
-@media (max-width: 1925px) {
-  .linkedin img {
-    margin-left: 1800px;
-  }
-}
-@media (max-width: 1880px) {
-  .linkedin img {
-    margin-left: 1750px;
-  }
-}
-@media (max-width: 1825px) {
-  .linkedin img {
-    margin-left: 1700px;
-  }
-}
-@media (max-width: 1770px) {
-  .linkedin img {
-    margin-left: 1650px;
-  }
-}
-@media (max-width: 1720px) {
-  .linkedin img {
-    margin-left: 1600px;
-  }
-}
-@media (max-width: 1670px) {
-  .linkedin img {
-    margin-left: 1550px;
-  }
-}
-@media (max-width: 1615px) {
-  .linkedin img {
-    margin-left: 1500px;
-  }
-}
-@media (max-width: 1565px) {
-  .linkedin img {
-    margin-left: 1450px;
-  }
-}
-@media (max-width: 1510px) {
-  .linkedin img {
-    margin-left: 1400px;
-  }
-}
-@media (max-width: 1465px) {
-  .linkedin img {
-    margin-left: 1350px;
-  }
-}
-@media (max-width: 1410px) {
-  .linkedin img {
-    margin-left: 1300px;
-  }
-}
-@media (max-width: 1365px) {
-  .linkedin img {
-    margin-left: 1250px;
-  }
-}
-@media (max-width: 1310px) {
-  .linkedin img {
-    margin-left: 1200px;
-  }
-}
-@media (max-width: 1265px) {
-  .linkedin img {
-    margin-left: 1150px;
-  }
-}
-@media (max-width: 1220px) {
-  .linkedin img {
-    margin-left: 1100px;
-  }
-}
-@media (max-width: 1160px) {
-  .linkedin img {
-    visibility: hidden;
-  }
 }
