@@ -251,6 +251,27 @@ footer a:hover {
 
 @media (max-width: 460px){
 main {
-    background-color: aqua;
+    width: 450px;
+}
+
+header .logo img {
+    height: 30px;
+}
+
+nav {
+    visibility: hidden;
+}
+
+.herotxt h1 {
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.heroimg img {
+    width: 450px;
+    height: 500px;
+    object-fit: cover;
+    margin-top: 20px;
+    pointer-events: none;
 }
 }
