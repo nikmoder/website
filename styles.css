@@ -16,7 +16,6 @@ main {
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
-    background-color: aqua;
 }
 
 header {
@@ -250,7 +249,7 @@ footer a:hover {
 
 /**** RESPONSIVE ***/
 
-@media (max-width: 400px){
+@media (max-width: 460px){
 
 body {
     margin-left: -8px;
