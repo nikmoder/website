@@ -314,4 +314,14 @@ ul li {
     margin-bottom: 25px;
 }
 
+.reference h1 {
+    color: white;
+    font-family: 'Sen', sans-serif;
+    text-align: left;
+    font-size: 30px;
+    margin-top: -75px;
+    pointer-events: none;
+    padding-top: 50px;
+}
+
 }
