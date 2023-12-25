@@ -258,6 +258,8 @@ body {
 main {
     width: 380px;
     margin-left: -10px;
+    overflow-x: hidden;
+    height: 3650px;
 }
 
 header .logo img {
@@ -385,10 +387,9 @@ ul li {
 }
 
 footer {
-    width: 350px;
+    width: 100%;
     height: 550px;
     background-color: white;
-    margin-top: -1200px;
     margin-left: 40px;
 }
 
