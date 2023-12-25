@@ -413,10 +413,10 @@ footer a {
 footer p {
     color: black;
     font-family: 'Sen', sans-serif;
-    padding-top: 200px;
+    padding-top: 300px;
     font-weight: 700;
     position: absolute;
-    margin-left: 30px;
+    margin-left: 45px;
     font-size: 12px;
 }
 
@@ -425,8 +425,8 @@ footer p {
     font-family: 'Sen', sans-serif;
     font-weight: 700;
     font-size: 15px;
-    margin-top: 212px;
-    margin-left: 215px;
+    margin-top: 312px;
+    margin-left: 230px;
     position: absolute;
     font-size: 12px;
 }
