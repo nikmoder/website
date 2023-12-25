@@ -324,4 +324,54 @@ ul li {
     padding-top: 50px;
 }
 
+.first img {
+    width: 350px;
+    height: 250px;
+    margin-top: 50px;
+}
+
+.second img {
+    width: 350px;
+    height: 250px;
+    object-fit: cover;
+    float: left;
+    margin-top: 20px;
+}
+
+.third img {
+    width: 350px;
+    height: 250px;
+    float: left;
+    margin-top: 725px;
+    margin-left: -400px;
+    object-fit: cover;
+}
+
+.fourth img {
+    width: 350px;
+    height: 400px;
+    float: left;
+    margin-top: 295px;
+    margin-left: -400px;
+    object-fit: cover;
+}
+
+.fifth img {
+    width: 350px;
+    height: 400px;
+    margin-top: 1005px;
+    float: left;
+    margin-left: -400px;
+    object-fit: cover;
+}
+
+.sixth img {
+    width: 350px;
+    height: 250px;
+    float: left;
+    object-fit: cover;
+    margin-top: 1435px;
+    margin-left: -400px;
+}
+
 }
