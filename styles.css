@@ -425,6 +425,23 @@ header .logo img:hover {
     .hero_small img {
         height: 50vh;
     }
+
+    .kontaktiraj a:hover {
+        color: black;
+    }
+
+    .kontaktiraj a:hover {
+        color: black;
+        text-decoration: none;
+        background-color: white;
+    }
+
+    .txtbox a:hover {
+        color: black;
+        text-decoration: none;
+        background-color: white;
+    }
+    
 }
 
 @media (max-width: 414px) {
