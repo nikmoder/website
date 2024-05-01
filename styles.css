@@ -435,6 +435,15 @@ header .logo img:hover {
 }
 
 @media (max-width: 945px) {
+  html, body {overflow-x:hidden;}
+  #menu {
+    position: absolute;
+    width: 250px;
+    margin: -65px 0 0 0;
+    padding: 50px;
+    padding-top: 125px;
+    right: -50px;
+  }
 
     .kaj h3{
         font-size: 0.9rem;
@@ -528,6 +537,7 @@ header .logo img:hover {
 }
 
 @media (max-width: 414px) {
+
     .centeredhero h1{
         font-size: 1.6rem;
     }
