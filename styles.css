@@ -436,6 +436,7 @@ header .logo img:hover {
 
 @media (max-width: 945px) {
   html, body {overflow-x:hidden;}
+  
   #menu {
     position: absolute;
     width: 250px;
@@ -443,7 +444,13 @@ header .logo img:hover {
     padding: 50px;
     padding-top: 125px;
     right: -50px;
+    visibility: hidden;
   }
+
+  #menuToggle input:checked ~ ul
+{
+  visibility: visible;
+}
 
     .kaj h3{
         font-size: 0.9rem;
