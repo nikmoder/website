@@ -6,6 +6,32 @@ html {
 
 /*START-BURGER*/
 
+#gumb {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 200;
+  font-size: 1.05rem;
+  text-decoration: none;
+  background-color: none;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 10px;
+  padding-bottom: 10px; 
+  letter-spacing: 0.1rem; 
+  transition: color, 200ms ease;
+  border: solid;
+  border-color: white;
+  border-width: 1px;
+}
+
+#gumb:hover {
+  color: black;
+  background-color: white;
+  border: solid;
+  border-color: white;
+  border-width: 1px;
+}
+
 nav {
     position: relative;
     z-index: 4;
@@ -144,7 +170,7 @@ img {
 body {
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: rgb(19, 19, 19);
 }
 
 header .logo img {
@@ -174,12 +200,26 @@ header .logo img:hover {
     text-align: center;
   }
 
+  .underhero {
+    position: absolute;
+    top: 54%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 3;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 500;
+    text-align: center;
+  }
+
 .hero img {
     position: relative;
     width: 99.9vw;
     height: 100vh;
     object-fit: cover;
     z-index: 2;
+    opacity: 80%;
 }
 
 .fotoimg img {
@@ -211,26 +251,6 @@ header .logo img:hover {
     pointer-events: none;
 }
 
-.txtbox a {
-    color: black;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 200;
-    font-size: 1.05rem;
-    text-decoration: none;
-    background-color: white;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 10px;
-    padding-bottom: 10px; 
-    letter-spacing: 0.1rem; 
-    transition: color, 200ms ease;
-}
-
-.txtbox a:hover {
-    color: white;
-    background-color: black;
-}
-
 .videoimg img {
     margin-top: -4px;
     position: relative;
@@ -258,56 +278,34 @@ header .logo img:hover {
     padding-bottom: 50px;
 }
 
-.kontaktiraj a {
-    color: black;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 200;
-    font-size: 1.05rem;
-    text-decoration: none;
-    background-color: white;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 10px;
-    padding-bottom: 10px; 
-    letter-spacing: 0.1rem; 
-    transition: color, 200ms ease;
-}
-
-.kontaktiraj a:hover {
-    color: white;
-    background-color: black;
-    border-color: white;
-    border: solid;
-}
-
 .footer {
-    background-color: rgb(12, 12, 12);
+    background-color: white;
     width: 99.9vw;
-    height: 50vh;
+    height: 6vh;
     margin-top: 50px;
     text-align: center;
     position: relative;
 }
 
 .footertxt p {
-    color: white;
+    color: black;
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
     letter-spacing: 0.05rem;
-    padding-top: 45vh;
+    padding-top: 2.3vh;
     pointer-events: none;
 }
 
 .footer a {
     pointer-events: all;
-    color: gray;
+    color: rgb(69, 181, 255);
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
     transition: color, 200ms ease;
 }
 
 .footer a:hover {
-    color: white;
+    color: black;
 }
 
 
@@ -340,8 +338,8 @@ header .logo img:hover {
     color: white;
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
-    font-size: 1.8rem;
-    letter-spacing: 0.2rem;
+    font-size: 1.05rem;
+    letter-spacing: 0.1rem;
     text-align: center;
     pointer-events: none;
     padding-top: 50px;
@@ -351,16 +349,97 @@ header .logo img:hover {
     color: white;
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     letter-spacing: 0.1rem;
     pointer-events: none;
     padding-top: 50px;
     text-align: center;
   }
 
+  .kaj ul {
+    list-style-position:inside;
+    list-style: none;
+  }
+
+  .grafika_img img {
+    position: relative;
+    width: 40vw;
+    height: 20vh;
+    object-fit:contain;
+    z-index: 2;
+    left: 31%;
+  }
+
+  #kontaktgumb {
+    pointer-events: all;
+    color: gray;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    transition: color, 200ms ease;
+  }
+
+  #kontaktgumb:hover {
+    color: white;
+  }
+
+  /**********GALERIJA*********/
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 4%;
+  }
+  
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 33%;
+    max-width: 30%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 800px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column {
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  
+
 /*****************MEDIA**********/
 
+@media (max-width: 998px) {
+  .centeredhero h1{
+    font-size: 1.15rem;
+}
+
+.underhero {
+  font-size: 0.35rem;
+  top: 52%;
+}
+}
+
 @media (max-width: 945px) {
+
+    .kaj h3{
+        font-size: 0.9rem;
+    }
+
     .centeredhero h1{
         font-size: 1.15rem;
     }
@@ -386,6 +465,15 @@ header .logo img:hover {
         margin-left: 50px;
         margin-top: 30px;
     }
+
+    .grafika_img img {
+        position: relative;
+        width: 80vw;
+        height: 20vh;
+        object-fit:contain;
+        z-index: 2;
+        left: 10%;
+      }
 
     .txtbox {
         padding-left: 0px;
@@ -421,6 +509,9 @@ header .logo img:hover {
         font-size: 0.75rem;
     }
 
+    .centeredhero_small {
+        top: 30%;
+    }
 
     .hero_small img {
         height: 50vh;
@@ -446,8 +537,13 @@ header .logo img:hover {
 
 @media (max-width: 414px) {
     .centeredhero h1{
-        font-size: 1rem;
+        font-size: 1.6rem;
     }
+
+    .underhero h1{
+      font-size: 1rem;
+      padding-top: 80px;
+  }
 
     .centeredhero_small h1{
         font-size: 1.2rem;
