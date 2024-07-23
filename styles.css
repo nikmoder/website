@@ -63,7 +63,7 @@ nav a:hover
 {
   display: block;
   position: absolute;
-  top: 40px;
+  top: 50px;
   right: 50px;
   z-index: 1;
   -webkit-user-select: none;
@@ -91,7 +91,7 @@ nav a:hover
   height: 4px;
   margin-bottom: 5px;
   position: relative;
-  background: white;
+  background: gray;
   border-radius: 3px;
   z-index: 1;
   transform-origin: 4px 0px;
@@ -170,13 +170,13 @@ img {
 body {
     margin: 0;
     padding: 0;
-    background-color: rgb(19, 19, 19);
+    background-color: white;
 }
 
 header .logo img {
     position: absolute;
-    width: 90px;
-    margin-top: 40px;
+    width: 80px;
+    margin-top: 50px;
     margin-left: 100px;
     z-index: 3;
     transition: 200ms ease;
@@ -219,7 +219,7 @@ header .logo img:hover {
     height: 100vh;
     object-fit: cover;
     z-index: 2;
-    opacity: 80%;
+    opacity: 100%;
 }
 
 .fotoimg img {
@@ -229,7 +229,7 @@ header .logo img:hover {
     height: 100vh;
     object-fit: cover;
     z-index: 2;
-    opacity: 80%;
+    opacity: 100%;
 }
 
 .txtbox {
@@ -258,11 +258,11 @@ header .logo img:hover {
     height: 100vh;
     object-fit: cover;
     z-index: 2;
-    opacity: 80%;
+    opacity: 100%;
 }
 
 .numbers h3 {
-    color: white;
+    color: black;
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-size: 1.5rem;
@@ -278,8 +278,19 @@ header .logo img:hover {
     padding-bottom: 50px;
 }
 
+.kontaktiraj #gumb {
+  color: #194063;
+  border-color: #194063;
+}
+
+.kontaktiraj #gumb:hover {
+  color: white;
+  border-color: #194063;
+  background-color: #194063;
+}
+
 .footer {
-    background-color: white;
+    background-color: #194063;
     width: 99.9vw;
     height: 6vh;
     margin-top: 50px;
@@ -288,7 +299,7 @@ header .logo img:hover {
 }
 
 .footertxt p {
-    color: black;
+    color: white;
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
     letter-spacing: 0.05rem;
@@ -305,7 +316,7 @@ header .logo img:hover {
 }
 
 .footer a:hover {
-    color: black;
+    color: white;
 }
 
 
@@ -318,7 +329,7 @@ header .logo img:hover {
     height: 70vh;
     object-fit: cover;
     z-index: 2;
-    opacity: 70%;
+    opacity: 100%;
 }
 
 .centeredhero_small {
@@ -335,7 +346,7 @@ header .logo img:hover {
   }
 
   .kaj h3 {
-    color: white;
+    color: black;
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-size: 1.05rem;
@@ -346,7 +357,7 @@ header .logo img:hover {
   }
 
   .kaj p {
-    color: white;
+    color: black;
     font-family: 'Roboto', sans-serif;
     font-weight: 200;
     font-size: 1.4rem;
@@ -367,7 +378,7 @@ header .logo img:hover {
     height: 20vh;
     object-fit:contain;
     z-index: 2;
-    left: 31%;
+    left: 30%;
   }
 
   #kontaktgumb {
@@ -379,7 +390,7 @@ header .logo img:hover {
   }
 
   #kontaktgumb:hover {
-    color: white;
+    color: rgb(69, 181, 255);
   }
 
   /**********GALERIJA*********/
