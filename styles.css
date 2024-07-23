@@ -419,7 +419,7 @@ header .logo img:hover {
   @media screen and (max-width: 800px) {
     .column {
       flex: 100%;
-      max-width: 100%;
+      max-width: 90%;
     }
   }
   
@@ -427,7 +427,7 @@ header .logo img:hover {
   @media screen and (max-width: 600px) {
     .column {
       flex: 100%;
-      max-width: 100%;
+      max-width: 90%;
     }
   }
   
